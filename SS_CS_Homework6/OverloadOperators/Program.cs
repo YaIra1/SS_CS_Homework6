@@ -9,6 +9,10 @@
 
             var fraction3 = fraction1 * fraction2;
 
+            Console.WriteLine("{0} * {1} = {2}", fraction1, fraction2, fraction3);
+
+
+            Console.ReadKey();
         }
     }
 }

@@ -92,5 +92,10 @@ namespace OverloadOperators
 
             return new Fraction(newNum, newDen);
         }
+
+        public override string ToString()
+        {
+            return string.Format("{0} / {1}", _numerator, _denominator);
+        }
     }
 }
